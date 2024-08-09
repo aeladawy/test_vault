@@ -1,0 +1,10 @@
+---
+- name: test vault
+  gather_facts: false
+  hosts: all
+  tasks:
+    - name: dummy test
+      debug:
+        msg:
+          - "{{ test_password }}"
+          - "{{ test_url }}" 
