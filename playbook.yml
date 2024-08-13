@@ -7,4 +7,5 @@
       debug:
         msg:
           - "{{ test_password }}"
-          - "{{ test_url }}" 
+          - "{{ jdbc_test_password }}"
+          - "{{ api_test_password }}"
